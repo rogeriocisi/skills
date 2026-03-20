@@ -1,0 +1,17 @@
+{
+  "skill_name": "arquiteto-conteudo-youtube",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Aqui está a transcrição do meu último vídeo falando sobre 'Os 5 hábitos alimentares que você precisa abandonar'. Quero que você crie o pacote para o YouTube. Transcrição: [Muitas vezes comemos açúcar demais, não bebemos água o suficiente, ignoramos fibras, comemos rápido demais e pulamos o café da manhã. Cada um desses hábitos tem impactos profundos...]",
+      "expected_output": "3 títulos, descrição de até 4000 caracteres, tags, hashtags e uma miniatura",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Gere um pacote para o YouTube baseado neste artigo sobre 'Como iniciar sua carreira em Inteligência Artificial do zero'. O artigo aborda aprender Python, estudar álgebra linear, construir projetos práticos e o uso de recursos gratuitos como cursos de Stanford.",
+      "expected_output": "3 títulos, descrição de até 4000 caracteres, tags, hashtags e uma miniatura",
+      "files": []
+    }
+  ]
+}
