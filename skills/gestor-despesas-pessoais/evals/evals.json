@@ -1,0 +1,17 @@
+{
+  "skill_name": "gestor-despesas-pessoais",
+  "evals": [
+    {
+      "id": 0,
+      "name": "full-march-consolidation",
+      "prompt": "Consolide os documentos financeiros de Março de 2026 localizados na pasta ./test_data/. Siga rigorosamente as regras de categorização e abatimento de duplicidade para os cartões Porto Seguro e Bradesco. Apresente o resumo mensal em formato de tabela.",
+      "expected_output": "Um resumo financeiro consolidado em tabela, com Educação somando R$ 1.400,00, Restaurantes somando R$ 315,50, e os valores líquidos dos cartões refletindo a exclusão dos itens categorizados individualmente (Porto Seguro Líquido: R$ 1.846,20; Bradesco Líquido: R$ 290,00).",
+      "files": [
+        "./test_data/holerite_mar_2026.txt",
+        "./test_data/extrato_mar_2026.csv",
+        "./test_data/fatura_porto_mar_2026.csv",
+        "./test_data/fatura_bradesco_mar_2026.csv"
+      ]
+    }
+  ]
+}

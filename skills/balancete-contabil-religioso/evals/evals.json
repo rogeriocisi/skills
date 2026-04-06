@@ -1,0 +1,17 @@
+{
+  "skill_name": "balancete-contabil-religioso",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Gere o balancete mensal de Janeiro de 2026 para a Tenda. Use os dados na pasta c:/Users/Rogerio/OneDrive/_TCM/Tesouraria/Balancetes-Antigravity. O balancete deve incluir tabelas de entradas e saídas categorizadas, conforme as instruções da skill.",
+      "expected_output": "Um relatório formatado em Markdown com o balancete de Janeiro. Deve conter: entradas de mensalidades, saídas para aluguel (R$ 2.580,00), materiais solicitados pelo Xyko e Rina, e o saldo final de Janeiro conforme discutido no WhatsApp (R$ 1.384,61 em caixa e R$ 10.419,27 em investimento).",
+      "files": ["c:/Users/Rogerio/OneDrive/_TCM/Tesouraria/Balancetes-Antigravity"]
+    },
+    {
+      "id": 1,
+      "prompt": "Prepare a prestação de contas de Fevereiro de 2026 para a Tenda, lendo a pasta c:/Users/Rogerio/OneDrive/_TCM/Tesouraria/Balancetes-Antigravity. Categorize as compras de velas, produtos de limpeza e itens de manutenção mencionados no WhatsApp. O saldo final deve bater com o enviado pelo Rogério no grupo (R$ 272,87 em conta corrente e R$ 9.997,31 em investimento).",
+      "expected_output": "Balancete de Fevereiro completo com resumo de saldos corrigidos e categorização por itens específicos (Ex: R$ 466,84 em velas, R$ 1.000,10 total para Rina, pagamentos da imobiliária).",
+      "files": ["c:/Users/Rogerio/OneDrive/_TCM/Tesouraria/Balancetes-Antigravity"]
+    }
+  ]
+}

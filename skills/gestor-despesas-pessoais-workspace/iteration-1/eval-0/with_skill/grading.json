@@ -1,0 +1,11 @@
+{
+  "expectations": [
+    { "text": "The output includes a table with the financial summary.", "passed": true, "evidence": "Output is formatted as a markdown table." },
+    { "text": "Education (Educação) should be R$ 1.400,00.", "passed": true, "evidence": "Table shows Educação: 1.400,00." },
+    { "text": "Restaurants (Restaurantes) should be R$ 315,50.", "passed": true, "evidence": "Table shows Restaurantes: 315,50." },
+    { "text": "Porto Seguro Card balance (Líquido) should be R$ 1.846,20.", "passed": true, "evidence": "Table shows Porto Seguro (Líquido): 1.846,20." },
+    { "text": "Bradesco Card balance (Líquido) should be R$ 290,00.", "passed": true, "evidence": "Table shows Bradesco (Líquido): 290,00." },
+    { "text": "Pix (Eliangela) is a separate line item with R$ 1.500,00.", "passed": true, "evidence": "Table has separate row for Pix (Eliangela) at 1500." },
+    { "text": "Celular (VIVO EASY) is a separate line item with R$ 50,00.", "passed": true, "evidence": "Table has separate row for Celular (VIVO EASY) at 50." }
+  ]
+}

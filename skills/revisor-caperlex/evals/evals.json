@@ -1,0 +1,26 @@
+{
+  "skill_name": "revisor-caperlex",
+  "evals": [
+    {
+      "id": 1,
+      "name": "janeiro-ideal",
+      "prompt": "Por favor, revise os documentos do mes passado. Eles estao nas pastas 'Fiscal' e 'Contabil' disponiveis em c:\\Antigravity\\Skills\\skills\\revisor-caperlex-workspace\\mock_data\\janeiro",
+      "expected_output": "Deve listar os arquivos, sinalizar que a documentacao parece completa, e nao levantar alertas se todos os arquivos forem adequados e nao conterem dados pessoais.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "fevereiro-incompleto",
+      "prompt": "Esta e a remessa de fevereiro: c:\\Antigravity\\Skills\\skills\\revisor-caperlex-workspace\\mock_data\\fevereiro\\Fiscal e c:\\Antigravity\\Skills\\skills\\revisor-caperlex-workspace\\mock_data\\fevereiro\\Contabil",
+      "expected_output": "Caso falte o extrato bancario ou uma categoria principal, a skill deve emitir um alerta claro de 'Arquivos Faltantes'.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "marco-comprometido",
+      "prompt": "Revise o balancete de marco nas respectivas pastas (c:\\Antigravity\\Skills\\skills\\revisor-caperlex-workspace\\mock_data\\marco) e me diga se esta ok.",
+      "expected_output": "A skill deve identificar arquivos suspeitos (ex: 'extrato_nubank_pastor_joao.pdf', 'foto_churrasco_lideranca.jpg', 'planilha_dizimos_interna_sigilosa.xlsx') nas pastas e gerar um [ALERTA] solicitando a remocao imediata dos mesmos antes do envio para a Caperlex.",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "eval_id": 0,
+  "eval_name": "janeiro-ideal",
+  "prompt": "Por favor, revise os documentos do mes passado. Eles estao nas pastas 'Fiscal' e 'Contabil' disponiveis em c:\\Antigravity\\Skills\\skills\\revisor-caperlex-workspace\\mock_data\\janeiro",
+  "assertions": [
+    { "name": "identifies-all-documents", "text": "Deve identificar que foram encontrados documentos validos nas pastas." },
+    { "name": "no-false-positives", "text": "Nao deve levantar alertas criticos para arquivos de Janeiro." },
+    { "name": "conclusion-ready", "text": "A conclusão deve indicar que esta pronto para enviar." }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "expectations": [
+    { "text": "Deve identificar 'compras_cartao_pastor_joao.pdf' como um documento de Pessoa Física (PF) que deve ser removido.", "passed": true, "evidence": "Item 1 nos alertas críticos identificou o arquivo como PF e solicitou remoção." },
+    { "text": "Deve sinalizar 'planilha_dizimos_interna_sigilosa.xlsx' como um arquivo sigiloso interno não-contábil.", "passed": true, "evidence": "Item 2 nos alertas identificou como documento de uso exclusivo interno com dados sensíveis." },
+    { "text": "Deve sinalizar 'documento_disciplinar_membro.pdf' como confidencial e não-contábil.", "passed": true, "evidence": "Item 3 identificou como documento disciplinar eclesiástico altamente sigiloso." },
+    { "text": "A conclusão final deve ser que o envio está bloqueado ou requer limpeza urgente dos arquivos.", "passed": true, "evidence": "Status: ENVIO BLOQUEADO; Conclusão: Requer limpeza total dos arquivos pontuados." }
+  ]
+}

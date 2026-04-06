@@ -1,0 +1,7 @@
+{
+  "expectations": [
+    { "text": "Deve identificar a ausência do extrato bancário PJ.", "passed": true, "evidence": "O relatório em 'Arquivos Faltantes' destacou 'Alerta Crítico: Faltando Extrato Bancário PJ'." },
+    { "text": "Deve sinalizar que faltam guias fiscais ou notas de serviço.", "passed": true, "evidence": "Relatou falha em Dept Fiscal: 'Não foram encontradas guias de impostos ou notas de serviço'." },
+    { "text": "A conclusão deve indicar que o balancete de Fevereiro está incompleto.", "passed": true, "evidence": "Status: Dados Incompletos; Conclusão: Requer complementação." }
+  ]
+}

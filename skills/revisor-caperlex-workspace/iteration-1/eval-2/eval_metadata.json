@@ -1,0 +1,11 @@
+{
+  "eval_id": 2,
+  "eval_name": "marco-comprometido",
+  "prompt": "Revise o balancete de marco nas respectivas pastas (c:\\Antigravity\\Skills\\skills\\revisor-caperlex-workspace\\mock_data\\marco) e me diga se esta ok.",
+  "assertions": [
+    { "name": "alerts-pf-document", "text": "Deve identificar 'compras_cartao_pastor_joao.pdf' como um documento de Pessoa Fisica (PF) que deve ser removido." },
+    { "name": "alerts-internal-spreadsheet", "text": "Deve sinalizar 'planilha_dizimos_interna_sigilosa.xlsx' como um arquivo sigiloso interno nao-contabil." },
+    { "name": "alerts-confidential-document", "text": "Deve sinalizar 'documento_disciplinar_membro.pdf' como confidencial e nao-contabil." },
+    { "name": "envio-bloqueado", "text": "A conclusao final deve ser que o envio esta bloqueado ou requer limpeza urgente dos arquivos." }
+  ]
+}

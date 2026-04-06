@@ -1,0 +1,7 @@
+{
+  "expectations": [
+    { "text": "Deve identificar que foram encontrados documentos válidos nas pastas.", "passed": true, "evidence": "O relatório confirmou 7 documentos encontrados e validou as categorias Fiscal e Contábil." },
+    { "text": "Não deve levantar alertas críticos para arquivos de Janeiro.", "passed": true, "evidence": "Status Geral foi 'As pastas refletem fielmente os requisitos' e nenhum item suspeito foi listado." },
+    { "text": "A conclusão deve indicar que está pronto para enviar.", "passed": true, "evidence": "Conclusão: Pronto para enviar à Caperlex." }
+  ]
+}

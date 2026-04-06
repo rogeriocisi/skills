@@ -1,0 +1,11 @@
+{
+  "expectations": [
+    { "text": "The output includes a table with the financial summary.", "passed": false, "evidence": "Output is a list, not a table." },
+    { "text": "Education (Educação) should be R$ 1.400,00.", "passed": false, "evidence": "Only showed Petrópolis 1200." },
+    { "text": "Restaurants (Restaurantes) should be R$ 315,50.", "passed": false, "evidence": "No detail on card items." },
+    { "text": "Porto Seguro Card balance (Líquido) should be R$ 1.846,20.", "passed": false, "evidence": "Showed full Porto Seguro 3000." },
+    { "text": "Bradesco Card balance (Líquido) should be R$ 290,00.", "passed": false, "evidence": "Showed full Bradesco 1000." },
+    { "text": "Pix (Eliangela) is a separate line item with R$ 1.500,00.", "passed": true, "evidence": "Showed Pix (Eliangela) in despesas." },
+    { "text": "Celular (VIVO EASY) is a separate line item with R$ 50,00.", "passed": false, "evidence": "Missing Celular VIVO EASY (it was in the card)." }
+  ]
+}

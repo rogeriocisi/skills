@@ -1,0 +1,6 @@
+{
+  "eval_id": 0,
+  "eval_name": "janeiro-2026-tenda",
+  "prompt": "Gere o balancete mensal de Janeiro de 2026 para a Tenda. Use os dados na pasta c:/Users/Rogerio/OneDrive/_TCM/Tesouraria/Balancetes-Antigravity. O balancete deve incluir tabelas de entradas e saídas categorizadas, conforme as instruções da skill.",
+  "assertions": []
+}

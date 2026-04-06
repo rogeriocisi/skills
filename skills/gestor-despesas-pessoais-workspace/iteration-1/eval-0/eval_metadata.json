@@ -1,0 +1,14 @@
+{
+  "eval_id": 0,
+  "eval_name": "full-march-consolidation",
+  "prompt": "Consolide os documentos financeiros de Março de 2026 localizados na pasta ./test_data/. Siga rigorosamente as regras de categorização e abatimento de duplicidade para os cartões Porto Seguro e Bradesco. Apresente o resumo mensal em formato de tabela.",
+  "assertions": [
+    { "text": "The output includes a table with the financial summary." },
+    { "text": "Education (Educação) should be R$ 1.400,00." },
+    { "text": "Restaurants (Restaurantes) should be R$ 315,50." },
+    { "text": "Porto Seguro Card balance (Líquido) should be R$ 1.846,20." },
+    { "text": "Bradesco Card balance (Líquido) should be R$ 290,00." },
+    { "text": "Pix (Eliangela) is a separate line item with R$ 1.500,00." },
+    { "text": "Celular (VIVO EASY) is a separate line item with R$ 50,00." }
+  ]
+}

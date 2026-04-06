@@ -1,0 +1,10 @@
+{
+  "eval_id": 1,
+  "eval_name": "fevereiro-incompleto",
+  "prompt": "Esta e a remessa de fevereiro: c:\\Antigravity\\Skills\\skills\\revisor-caperlex-workspace\\mock_data\\fevereiro\\Fiscal e c:\\Antigravity\\Skills\\skills\\revisor-caperlex-workspace\\mock_data\\fevereiro\\Contabil",
+  "assertions": [
+    { "name": "identifies-missing-extrato", "text": "Deve identificar a ausencia do extrato bancario PJ." },
+    { "name": "identifies-missing-fiscal", "text": "Deve sinalizar que faltam guias fiscais ou notas de servico." },
+    { "name": "status-incomplete", "text": "A conclusao deve indicar que o balancete de Fevereiro esta incompleto." }
+  ]
+}
